@@ -1,9 +1,9 @@
-import { SignupFormDemo } from "../democomponents/SignupFormDemo";
+import LoginDemo from "../democomponents/loginDemo";
 
 const InfoPage = () => {
   return (
     <div>
-      <SignupFormDemo />
+      <LoginDemo />
     </div>
   );
 };

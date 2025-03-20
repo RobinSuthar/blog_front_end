@@ -21,7 +21,7 @@ function App() {
           <Route path="/docs" element={<Documentation />} />
           <Route path="/aboutus" element={<AboutPage />} />
           <Route path="/infopage" element={<InfoPage />} />
-          <Route path="/result" element={<Result />} />
+          <Route path="/blog" element={<Result />} />
         </Routes>
       </ThemeProvider>
     </BrowserRouter>
