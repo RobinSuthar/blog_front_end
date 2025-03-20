@@ -1,27 +1,30 @@
 "use client";
-
+import sait1 from "../../public/images/sait/190327-sait-02.jpg";
+import sait3 from "../../public/images/sait/14350369704_e85b8f63cf_b.jpg";
+import sait4 from "../../public/images/sait/SAIT-Atrium.webp";
+import sait5 from "../../public/images/sait/cd-sait-parking-garage-600x400.jpg";
 import Carousel from "../components/ui/carousel";
 export function CarouselDemo() {
   const slideData = [
     {
       title: "Mystic Mountains",
       button: "Explore Component",
-      src: "https://images.unsplash.com/photo-1494806812796-244fe51b774d?q=80&w=3534&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      src: sait3,
     },
     {
       title: "Urban Dreams",
       button: "Explore Component",
-      src: "https://images.unsplash.com/photo-1518710843675-2540dd79065c?q=80&w=3387&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      src: sait1,
     },
     {
       title: "Neon Nights",
       button: "Explore Component",
-      src: "https://images.unsplash.com/photo-1590041794748-2d8eb73a571c?q=80&w=3456&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      src: sait5,
     },
     {
       title: "Desert Whispers",
       button: "Explore Component",
-      src: "https://images.unsplash.com/photo-1679420437432-80cfbf88986c?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      src: sait4,
     },
   ];
   return (
