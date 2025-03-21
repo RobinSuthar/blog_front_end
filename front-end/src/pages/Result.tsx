@@ -14,7 +14,7 @@ const Result = () => {
   }
 
   return (
-    <div className="ml-52 mr-52 p-5">
+    <div className="ml-32 mr-32 p-2">
       <Topic />
       <SonnerDemo />
       <div className="mt-16   absolute right-10 bottom-7 z-10 ">

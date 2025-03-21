@@ -15,7 +15,10 @@ export function FlipWordsDemo() {
       <div className="text-5xl md:text-7xl lg:text mx-auto font-normal text-neutral-600 dark:text-neutral-400">
         Welcome! SAIT Student!
         <div>
-          talk <FlipWords words={words} /> <br />
+          <div>
+            {" "}
+            talk <FlipWords words={words} /> <br />
+          </div>
         </div>
       </div>
       <div className="mt-16">

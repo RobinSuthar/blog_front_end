@@ -8,6 +8,7 @@ import { ModeToggle } from "./components/mode-toogle";
 import { NavigationMenuDemo } from "./democomponents/NagiationDemo";
 import Documentation from "./pages/Documentation";
 import PostBlog from "./pages/PostBlog";
+import SpecificBlog from "./pages/SpecificBlog";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route path="/infopage" element={<InfoPage />} />
           <Route path="/blog" element={<Result />} />
           <Route path="/postblog" element={<PostBlog />} />
+          <Route path="/specificblog" element={<SpecificBlog />} />
         </Routes>
       </ThemeProvider>
     </BrowserRouter>
