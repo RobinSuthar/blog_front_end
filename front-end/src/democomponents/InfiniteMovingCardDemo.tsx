@@ -1,47 +1,63 @@
 "use client";
 
 import { InfiniteMovingCards } from "../components/ui/infinite-moving-cards";
-
+import { Button } from "../components/ui/button";
 export function InfiniteMovingCardsDemo() {
   return (
     <div className="h-[40rem] rounded-md flex flex-col antialiased bg-white dark:bg-black dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden">
+      <div className="md:text-7xl mb-9 lg:text text-3xl mx-auto font-normal text-neutral-600 dark:text-neutral-400">
+        Why should we use this{" "}
+        <span className="text-purple-500 text-9xl">?</span>
+        <div className="md:text-4xl mb-9 mt-4 lg:text text-3xl mx-auto font-normal text-neutral-600 dark:text-neutral-400">
+          Here are what <span className="text-purple-500">SAIT</span> Student
+          thinks!
+        </div>
+        <div className="md:text-xl mb-9 mt-1 lg:text text-3xl mx-auto font-normal text-neutral-600 dark:text-neutral-400">
+          Still not sure{" "}
+          <span className="text-purple-500">
+            <Button size={"lg"} variant="outline">
+              Documentation
+            </Button>
+          </span>{" "}
+        </div>
+      </div>
       <InfiniteMovingCards
         items={testimonials}
         direction="right"
-        speed="slow"
+        speed="fast"
       />
     </div>
   );
 }
-
 const testimonials = [
   {
     quote:
-      "It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness, it was the epoch of belief, it was the epoch of incredulity, it was the season of Light, it was the season of Darkness, it was the spring of hope, it was the winter of despair.",
-    name: "Charles Dickens",
-    title: "A Tale of Two Cities",
+      "Finally, a place where I can share my thoughts without worrying about judgment! This platform has given me a voice I never knew I needed.",
+    name: "Alex M.",
+    title: "SAIT Business Student",
   },
   {
     quote:
-      "To be, or not to be, that is the question: Whether 'tis nobler in the mind to suffer The slings and arrows of outrageous fortune, Or to take Arms against a Sea of troubles, And by opposing end them: to die, to sleep.",
-    name: "William Shakespeare",
-    title: "Hamlet",
-  },
-  {
-    quote: "All that we see or seem is but a dream within a dream.",
-    name: "Edgar Allan Poe",
-    title: "A Dream Within a Dream",
+      "I love how easy it is to post and interact anonymously. It’s a great way to discuss campus life, academics, and even personal struggles without feeling exposed.",
+    name: "Sarah T.",
+    title: "SAIT Engineering Student",
   },
   {
     quote:
-      "It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a wife.",
-    name: "Jane Austen",
-    title: "Pride and Prejudice",
+      "The community here is amazing! Seeing other students share their experiences makes me feel connected, even when I’m struggling with assignments.",
+    name: "Jordan P.",
+    title: "SAIT IT Student",
   },
   {
     quote:
-      "Call me Ishmael. Some years ago—never mind how long precisely—having little or no money in my purse, and nothing particular to interest me on shore, I thought I would sail about a little and see the watery part of the world.",
-    name: "Herman Melville",
-    title: "Moby-Dick",
+      "This platform is a game-changer! I can finally express my opinions freely and engage in meaningful conversations with fellow SAIT students.",
+    name: "Emily R.",
+    title: "SAIT Marketing Student",
+  },
+  {
+    quote:
+      "A must-have for SAIT students! Whether it's venting about exams or sharing wins, this site makes me feel heard and supported.",
+    name: "Chris D.",
+    title: "SAIT Computer Science Student",
   },
 ];

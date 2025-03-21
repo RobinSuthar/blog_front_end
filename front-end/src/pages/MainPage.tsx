@@ -1,4 +1,4 @@
-import { InfiniteMovingCardsDemo } from "@/democomponents/InfiniteMovingCardDemo";
+import { InfiniteMovingCardsDemo } from "../democomponents/InfiniteMovingCardDemo";
 import { CardHoverEffectDemo } from "../democomponents/CardHoverEffectDemo";
 import { FlipWordsDemo } from "../democomponents/FlipWordsDemo";
 
