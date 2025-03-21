@@ -2,46 +2,50 @@ import { HoverEffect } from "../components/ui/card-hover-effect";
 
 export function CardHoverEffectDemo() {
   return (
-    <div className="max-w-5xl mx-auto px-8">
-      <HoverEffect items={projects} />
+    <div className="max-w-5xl flex justify-center flex-col mx-auto px-8 mt-16">
+      <div className="md:text-7xl lg:text text-3xl mx-auto font-normal text-neutral-600 dark:text-neutral-400">
+        What to Expect?
+      </div>
+      <HoverEffect items={features} />
     </div>
   );
 }
-export const projects = [
+
+export const features = [
   {
-    title: "Stripe",
+    title: "Post Anonymously",
     description:
-      "A technology company that builds economic infrastructure for the internet.",
-    link: "https://stripe.com",
+      "Share your thoughts, experiences, and opinions without revealing your identity. Engage in open discussions without fear of judgment.",
+    link: "#",
   },
   {
-    title: "Netflix",
+    title: "Read & Explore",
     description:
-      "A streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, and more on thousands of internet-connected devices.",
-    link: "https://netflix.com",
+      "Browse through posts from other SAIT students. Discover trending topics, personal stories, and academic insights shared by your peers.",
+    link: "#",
   },
   {
-    title: "Google",
+    title: "Engage & Interact",
     description:
-      "A multinational technology company that specializes in Internet-related services and products.",
-    link: "https://google.com",
+      "Like, comment, and discuss posts while staying anonymous. Build meaningful conversations without the pressure of social identity.",
+    link: "#",
   },
   {
-    title: "Meta",
+    title: "Moderated Community",
     description:
-      "A technology company that focuses on building products that advance Facebook's mission of bringing the world closer together.",
-    link: "https://meta.com",
+      "Enjoy a safe and respectful space with community guidelines in place. Posts are moderated to maintain a healthy discussion environment.",
+    link: "#",
   },
   {
-    title: "Amazon",
+    title: "User-Friendly Experience",
     description:
-      "A multinational technology company focusing on e-commerce, cloud computing, digital streaming, and artificial intelligence.",
-    link: "https://amazon.com",
+      "Easily navigate through the platform with a clean and intuitive design. Post and interact seamlessly from any device.",
+    link: "#",
   },
   {
-    title: "Microsoft",
+    title: "Your Voice, Your Space",
     description:
-      "A multinational technology company that develops, manufactures, licenses, supports, and sells computer software, consumer electronics, personal computers, and related services.",
-    link: "https://microsoft.com",
+      "This is your platform to express yourself freely, share insights, and connect with fellow SAIT students on topics that matter to you.",
+    link: "#",
   },
 ];

@@ -1,4 +1,5 @@
-import { CardHoverEffectDemo } from "@/democomponents/CardHoverEffectDemo";
+import { InfiniteMovingCardsDemo } from "@/democomponents/InfiniteMovingCardDemo";
+import { CardHoverEffectDemo } from "../democomponents/CardHoverEffectDemo";
 import { FlipWordsDemo } from "../democomponents/FlipWordsDemo";
 
 const MainPage = () => {
@@ -6,6 +7,7 @@ const MainPage = () => {
     <div className="">
       <FlipWordsDemo />
       <CardHoverEffectDemo />
+      <InfiniteMovingCardsDemo />
     </div>
   );
 };
