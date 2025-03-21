@@ -1,11 +1,11 @@
-import { AnimatedTestimonialsDemo } from "../democomponents/AnimatedTestimonialDemo";
+import { CardHoverEffectDemo } from "@/democomponents/CardHoverEffectDemo";
 import { FlipWordsDemo } from "../democomponents/FlipWordsDemo";
 
 const MainPage = () => {
   return (
     <div className="">
       <FlipWordsDemo />
-      <AnimatedTestimonialsDemo />
+      <CardHoverEffectDemo />
     </div>
   );
 };
