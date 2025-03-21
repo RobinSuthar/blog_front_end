@@ -7,6 +7,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { ModeToggle } from "./components/mode-toogle";
 import { NavigationMenuDemo } from "./democomponents/NagiationDemo";
 import Documentation from "./pages/Documentation";
+import PostBlog from "./pages/PostBlog";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route path="/aboutus" element={<AboutPage />} />
           <Route path="/infopage" element={<InfoPage />} />
           <Route path="/blog" element={<Result />} />
+          <Route path="/postblog" element={<PostBlog />} />
         </Routes>
       </ThemeProvider>
     </BrowserRouter>

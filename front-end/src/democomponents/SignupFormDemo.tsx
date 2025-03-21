@@ -9,6 +9,7 @@ import axios from "axios";
 //Intersting
 
 export function SignupFormDemo() {
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const [symptons, setSymptons] = useState("");
   const [age, setAge] = useState("");
   const [gender, setGender] = useState("");
