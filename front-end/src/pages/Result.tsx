@@ -1,5 +1,11 @@
+import Topic from "../components/blogitup/topic";
+
 const Result = () => {
-  return <div>Hello</div>;
+  return (
+    <div>
+      <Topic />
+    </div>
+  );
 };
 
 export default Result;
