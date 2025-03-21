@@ -3,20 +3,24 @@ import Topic from "../components/blogitup/topic";
 import { Button } from "../components/ui/button";
 import { useNavigate } from "react-router-dom";
 
+import addImage from "../../public/images/sait/add_24dp_999999_FILL0_wght400_GRAD0_opsz24.png";
+
 const Result = () => {
   const navigation = useNavigate();
 
   function handleClick() {
-    navigation("/");
+    navigation("/postblog");
   }
 
   return (
-    <div>
+    <div className="ml-52 mr-52 p-5">
       <Topic />
       <SonnerDemo />
       <div className="mt-16   absolute right-10 bottom-7 z-10 ">
         <Button size={"lg"} onClick={handleClick} variant="outline">
-          Get Started
+          <div>
+            <img src={addImage} alt="" width={30} />
+          </div>
         </Button>
       </div>
     </div>
