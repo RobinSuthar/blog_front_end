@@ -4,6 +4,7 @@ import { Button } from "../components/ui/button";
 import { useNavigate } from "react-router-dom";
 
 import addImage from "../../public/images/sait/add_24dp_999999_FILL0_wght400_GRAD0_opsz24.png";
+import BlogPosted from "../components/blogitup/blog-posted";
 
 const Result = () => {
   const navigation = useNavigate();
@@ -23,6 +24,7 @@ const Result = () => {
           </div>
         </Button>
       </div>
+      <BlogPosted />
     </div>
   );
 };
