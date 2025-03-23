@@ -18,7 +18,7 @@ export function InfiniteMovingCardsDemo() {
             <Button size={"lg"} variant="outline">
               Documentation
             </Button>
-          </span>{" "}
+          </span>
         </div>
       </div>
       <InfiniteMovingCards
