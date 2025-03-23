@@ -1,7 +1,5 @@
-
-
 const PostBlog = () => {
-  return <div>PostBlog</div>;
+  return <div>post-blog</div>;
 };
 
 export default PostBlog;

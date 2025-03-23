@@ -57,14 +57,8 @@ export function LoginForm({
                 Login
               </Button>
               <Button variant="outline" className="w-full">
-                Login with Google
+                Skip
               </Button>
-            </div>
-            <div className="mt-4 text-center text-sm">
-              Don&apos;t have an account?{" "}
-              <a href="#" className="underline underline-offset-4">
-                Sign up
-              </a>
             </div>
           </form>
         </CardContent>

@@ -4,7 +4,7 @@ export function CardHoverEffectDemo() {
   return (
     <div className="max-w-5xl flex justify-center flex-col mx-auto px-8 mt-16">
       <div className="md:text-7xl lg:text text-3xl mx-auto font-normal text-neutral-600 dark:text-neutral-400">
-        What to Expect?
+        What to <span className="text-purple-500">Expect ?</span>
       </div>
       <HoverEffect items={features} />
     </div>
